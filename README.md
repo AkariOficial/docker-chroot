@@ -76,6 +76,7 @@
 
 </details>
 
+--------
 ### Informações úteis (ou não)
 > aqui estarão algumas informações do que foi utilizado.
 

@@ -39,7 +39,7 @@
 ```
 -------------
 
-### Volte para a guia que você executou na etapa [#2.2](https://github.com/AkariOficial/docker-chroot/blob/main/README.md#abra-outra-guia-no-termux-e-executa-o-chroot) <br> e saia do chroot digitando exit e logue novamente.
+### Volte para a guia que você executou na etapa [#2.2](https://github.com/AkariOficial/docker-chroot/blob/main/README.md#abra-outra-guia-no-termux-e-executa-o-chroot-22) <br> e saia do chroot digitando exit e logue novamente.
 ```bash
  container -run arch
 ```

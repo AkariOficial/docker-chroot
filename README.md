@@ -99,8 +99,7 @@ em diferentes ambientes.
 <details>
 <summary>Mostrar mais</summary>
 
-```
-Como já sabemos,  o Docker é uma 
+> Como já sabemos,  o Docker é uma 
 plataforma de software que permite 
 criar, implantar e executar aplicativos 
 em contêineres. E o que seria o cgroup
@@ -109,7 +108,7 @@ em docker? cgroup é uma abreviação para
 Linux que permite limitar, medir e isolar 
 os recursos do sistema, como CPU, memória 
 e E/S,para processos ou grupos de processos
-específicos.
-```
+específicos. <br> O comando ```sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup``` <br> monta o sistema de arquivos "cgroup" em /sys/fs/cgroup usando o tipo "tmpfs" (um sistema de arquivos virtual na memória). Ele especifica o UID (identificador do usuário) e GID (identificador do grupo) como 0, o que significa que apenas o usuário root tem acesso ao sistema de arquivos cgroup. O modo 0755 define as permissões de acesso ao sistema de arquivos, permitindo que os proprietários e outros usuários leiam e executem arquivos, mas apenas o proprietário possa gravar.
+
 
 </details>

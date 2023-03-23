@@ -3,6 +3,10 @@
 > By @AkariOficial
 -------------
 
+### Tutorial Texto
+<details>
+<summary>Mostrar mais</summary>
+
 ## Como faz?
 
 ### **Instale o tsu** [# o quê é o tsu?](https://github.com/AkariOficial/docker-chroot#tsu)
@@ -117,5 +121,8 @@ específicos. <br> O comando ```sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgr
 <summary>Mostrar mais</summary>
 
 > O chroot-unshare é um recurso do Termux que permite criar um ambiente isolado dentro do sistema operacional Android, como se fosse uma máquina virtual. Esse ambiente pode ser usado para executar programas de outros sistemas operacionais, por exemplo. O comando chroot permite mudar o diretório raiz do sistema para outro diretório, enquanto o comando unshare permite criar um novo espaço de nomes para o processo. Juntos, eles criam um ambiente isolado do resto do sistema operacional.
+
+</details>
+
 
 </details>

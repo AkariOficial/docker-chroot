@@ -5,35 +5,35 @@
 
 ## Como faz?
 
-**Instale o tsu** [# o quê é o tsu?](https://github.com/AkariOficial/docker-chroot/edit/main/README.md#tsu)
+### **Instale o tsu** [# o quê é o tsu?](https://github.com/AkariOficial/docker-chroot/edit/main/README.md#tsu)
 ```bash
  pkg in -y tsu
  tsu
 ```
 
-**Habilite o cgroup**:
+### **Habilite o cgroup**:
 ```bash
  sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
 ```
 
-**Inicie o docker**
+### **Inicie o docker**
 ```bash
  sudo dockerd --iptables=false &
 ```
 
-**Abra outra guia no termux e executa o chroot**:
+### **Abra outra guia no termux e executa o chroot**:
 ```bash
  container -run arch
 ```
 > nota: volte para a outra aba, após executar o código acima na etapa 2
 
-**Crie um arquivo chamado** ``docker.sock`` **em** ``chroot/var/run/docker.sock`` **e dê permissão 666**
+### **Crie um arquivo chamado** ``docker.sock`` **em** ``chroot/var/run/docker.sock`` **e dê permissão 666**
 ```bash
  sudo touch arch/var/run/docker.sock; sudo chmod 666 arch/var/run/docker.sock
 ```
 > Partindo do princípio que você sabe o que é um chroot e etc **(este não é um tutorial de chroot em específico).**
 
-**Expondo o socket do Docker que está localizado fora do ambiente chroot.**
+### **Expondo o socket do Docker que está localizado fora do ambiente chroot.**
 ```bash
  sudo mount --bind /data/docker/run/docker.sock /data/data/com.termux/files/home/arch/var/run/docker.sock
 ```

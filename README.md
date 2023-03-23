@@ -25,7 +25,7 @@
 ```bash
  container -run arch
 ```
-> nota: volte para a outra aba, após executar o código acima na etapa [inicie-o-docker](https://github.com/AkariOficial/docker-chroot/blob/main/README.md#inicie-o-docker)
+> nota: Volte para essa aba [inicie-o-docker](https://github.com/AkariOficial/docker-chroot/blob/main/README.md#inicie-o-docker), após executar **container -run arch** acima.
 
 ### **Crie um arquivo chamado** ``docker.sock`` **em** ``chroot/var/run/docker.sock`` **e dê permissão 666**
 ```bash

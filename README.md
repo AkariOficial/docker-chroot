@@ -11,7 +11,7 @@
  tsu
 ```
 
-### **Habilite o cgroup**:
+### **Habilite o cgroup**
 ```bash
  sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
 ```
@@ -21,7 +21,7 @@
  sudo dockerd --iptables=false &
 ```
 
-### **Abra outra guia no termux e executa o chroot**:
+### **Abra outra guia no termux e executa o chroot**
 ```bash
  container -run arch
 ```
@@ -43,7 +43,7 @@
 ```bash
  container -run arch
 ```
-**Verificando se tudo ocorreu bem**:
+**Verificando se tudo ocorreu bem**
 ```bash
  docker info
 ```

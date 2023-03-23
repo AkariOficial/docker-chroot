@@ -21,7 +21,7 @@
  sudo dockerd --iptables=false &
 ```
 
-### **Abra outra guia no termux e executa o chroot**
+### **Abra outra guia no termux e executa o chroot [2.2]**
 ```bash
  container -run arch
 ```

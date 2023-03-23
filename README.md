@@ -5,7 +5,7 @@
 
 ## Como faz?
 
-### **Instale o tsu** [# o quê é o tsu?](https://github.com/AkariOficial/docker-chroot/edit/main/README.md#tsu)
+### **Instale o tsu** [# o quê é o tsu?](https://github.com/AkariOficial/docker-chroot#tsu)
 ```bash
  pkg in -y tsu
  tsu

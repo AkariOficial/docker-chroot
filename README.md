@@ -75,3 +75,67 @@
 -------------
 
 </details>
+
+### Informações úteis (ou não)
+> aqui estarão algumas informações do que foi utilizado.
+
+#### tsu
+<details>
+<summary>Mostrar mais</summary>
+
+```
+O comando tsu é uma ferramenta
+no Termux que permite obter 
+privilégios de superusuário
+(root) no terminal. É semelhante
+ao comando su que é usado em
+sistemas operacionais Linux.
+```
+
+</details>
+
+#### docker
+<details>
+<summary>Mostrar mais</summary>
+
+```
+Docker é uma plataforma de 
+software que permite criar, 
+implantar e executar aplicativos 
+em contêineres, que são ambientes 
+isolados e leves que executam um 
+aplicativo e seus componentes, 
+incluindo bibliotecas e dependê-
+ncias. 
+Isso permite que os aplicativos 
+sejam portáteis, escaláveis 
+e executados consistentemente 
+em diferentes ambientes.
+```
+
+</details>
+
+#### cgroup (explicação para docker)
+<details>
+<summary>Mostrar mais</summary>
+
+> Como já sabemos,  o Docker é uma 
+plataforma de software que permite 
+criar, implantar e executar aplicativos 
+em contêineres. E o que seria o cgroup
+em docker? cgroup é uma abreviação para 
+"control group", um recurso do kernel do 
+Linux que permite limitar, medir e isolar 
+os recursos do sistema, como CPU, memória 
+e E/S,para processos ou grupos de processos
+específicos. <br> O comando ```sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup``` <br> monta o sistema de arquivos "cgroup" em /sys/fs/cgroup usando o tipo "tmpfs" (um sistema de arquivos virtual na memória). Ele especifica o UID (identificador do usuário) e GID (identificador do grupo) como 0, o que significa que apenas o usuário root tem acesso ao sistema de arquivos cgroup. O modo 0755 define as permissões de acesso ao sistema de arquivos, permitindo que os proprietários e outros usuários leiam e executem arquivos, mas apenas o proprietário possa gravar.
+
+</details>
+
+#### chroot-unshare
+<details>
+<summary>Mostrar mais</summary>
+
+> O chroot-unshare é um recurso do Termux que permite criar um ambiente isolado dentro do sistema operacional Android, como se fosse uma máquina virtual. Esse ambiente pode ser usado para executar programas de outros sistemas operacionais, por exemplo. O comando chroot permite mudar o diretório raiz do sistema para outro diretório, enquanto o comando unshare permite criar um novo espaço de nomes para o processo. Juntos, eles criam um ambiente isolado do resto do sistema operacional.
+
+</details>

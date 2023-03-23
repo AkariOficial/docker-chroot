@@ -55,6 +55,40 @@
 ```
 -------------
 
-Informações úteis (ou não)
+#### Informações úteis (ou não)
+
 ### tsu
-> O comando tsu é uma ferramenta no Termux que permite obter privilégios de superusuário (root) no terminal. É semelhante ao comando su que é usado em sistemas operacionais Linux.
+<details>
+<summary>Mostrar mais</summary>
+
+```
+O comando tsu é uma ferramenta
+no Termux que permite obter 
+privilégios de superusuário
+(root) no terminal. É semelhante
+ao comando su que é usado em
+sistemas operacionais Linux.
+```
+
+</details>
+
+### docker
+<details>
+<summary>Mostrar mais</summary>
+
+```
+Docker é uma plataforma de 
+software que permite criar, 
+implantar e executar aplicativos 
+em contêineres, que são ambientes 
+isolados e leves que executam um 
+aplicativo e seus componentes, 
+incluindo bibliotecas e dependê-
+ncias. 
+Isso permite que os aplicativos 
+sejam portáteis, escaláveis 
+e executados consistentemente 
+em diferentes ambientes.
+```
+
+</details>

@@ -94,3 +94,22 @@ em diferentes ambientes.
 ```
 
 </details>
+
+### cgroup (explicação para docker)
+<details>
+<summary>Mostrar mais</summary>
+
+```
+Como já sabemos,  o Docker é uma 
+plataforma de software que permite 
+criar, implantar e executar aplicativos 
+em contêineres. E o que seria o cgroup
+em docker? cgroup é uma abreviação para 
+"control group", um recurso do kernel do 
+Linux que permite limitar, medir e isolar 
+os recursos do sistema, como CPU, memória 
+e E/S,para processos ou grupos de processos
+específicos.
+```
+
+</details>

@@ -3,6 +3,20 @@
 > By @AkariOficial
 -------------
 
+### Tutorial Vídeo
+<details>
+<summary>Mostrar mais</summary>
+
+## Como faz?
+
+```
+ video aqui daqui a pouco...
+```
+
+</details>
+
+-------------
+
 ### Tutorial Texto
 <details>
 <summary>Mostrar mais</summary>

@@ -7,9 +7,9 @@
 <details>
 <summary>Mostrar mais</summary>
 
-## Como faz?
+### Como faz?
 
-[Assistir](https://t.me/upload_akari/6)
+Telegram: [Assistir Vídeo](https://t.me/upload_akari/6)
 
 </details>
 
@@ -19,7 +19,7 @@
 <details>
 <summary>Mostrar mais</summary>
 
-## Como faz?
+### Como faz?
 
 ### **Instale o tsu** [# o quê é o tsu?](https://github.com/AkariOficial/docker-chroot#tsu)
 ```bash

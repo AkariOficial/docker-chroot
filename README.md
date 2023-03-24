@@ -9,9 +9,7 @@
 
 ## Como faz?
 
-```
- [Assistir]()
-```
+[Assistir](https://t.me/upload_akari/6)
 
 </details>
 

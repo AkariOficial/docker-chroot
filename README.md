@@ -10,7 +10,7 @@
 ## Como faz?
 
 ```
- video aqui daqui a pouco...
+ [Assistir]()
 ```
 
 </details>

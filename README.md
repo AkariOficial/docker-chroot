@@ -21,13 +21,13 @@ Telegram: [Assistir Vídeo](https://t.me/upload_akari/6)
 
 ### Como faz?
 
-### **Instale o tsu** [# o quê é o tsu?](https://github.com/AkariOficial/docker-chroot#tsu)
+### **Instale o tsu** [#o quê é o tsu?](https://github.com/AkariOficial/docker-chroot#tsu)
 ```bash
  pkg in -y tsu
  tsu
 ```
 
-### **Habilite o cgroup**
+### **Habilite o cgroup** [#o que é cgroup?](https://github.com/AkariOficial/docker-chroot#cgroup-explica%C3%A7%C3%A3o-para-docker)
 ```bash
  sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
 ```

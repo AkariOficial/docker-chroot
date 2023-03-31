@@ -32,7 +32,7 @@ Telegram: [Assistir Vídeo](https://t.me/upload_akari/6)
  sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
 ```
 
-### **Inicie o docker**
+### **Inicie o docker** [#o que é docker?](https://github.com/AkariOficial/docker-chroot#docker)
 ```bash
  sudo dockerd --iptables=false &
 ```

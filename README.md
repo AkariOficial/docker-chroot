@@ -23,7 +23,7 @@ Telegram: [Assistir Vídeo](https://t.me/upload_akari/6)
 
 ### **Instale o tsu** [#o quê é o tsu?](https://github.com/AkariOficial/docker-chroot#tsu)
 ```bash
- pkg in -y tsu
+ pkg in -y root-repo tsu
  tsu
 ```
 
